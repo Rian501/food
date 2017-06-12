@@ -26,7 +26,19 @@ function outputProducts(prodsArr)  {
 	console.log("prodsArr?", prodsArr);
 	let productList=document.getElementById("dog-food");
 	prodsArr.forEach(function(brand) {
-	console.log("food brand", brand.name);
+		console.log("food brand", brand.name);
+		productList.innerHTML += `<h2>${brand.name} Brand:</h2>`
+		brand.types.forEach(function(brandType) {
+			console.log("food types for each brand", brandType.type);
+			productList.innerHTML += `<h3>${brandType.type} foods</h3>`
+			console.log("brandtype", brandType);
+			console.log("brandtype volumes", brandType.volumes);
+			// brandType=brandType.volumes
+			brandType.volumes.forEach(function(typeVolume)  {
+				console.log("volumes for each type", typeVolume.name);
+				productList.innerHTML += `<h4>sizes: ${typeVolume.name}</h4>`
+				})
 
+		})
 	})
 }
