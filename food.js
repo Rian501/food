@@ -1,5 +1,7 @@
 let myRequest = new XMLHttpRequest();
+
 myRequest.addEventListener("error", doThisIfError);
+
 function doThisIfError () {
 	document.write("An error occurred while transferring data.");
 }
@@ -34,9 +36,10 @@ function outputProducts(prodsArr)  {
 			console.log("brandtype", brandType);
 			console.log("brandtype volumes", brandType.volumes);
 			// brandType=brandType.volumes
-			brandType.volumes.forEach(function(typeVolume)  {
-				console.log("volumes for each type", typeVolume.name);
-				productList.innerHTML += `<h4>sizes: ${typeVolume.name}</h4>`
+			brandType.volumes.forEach(function(volume)  {
+				console.log("volumes for each type", volume.name);
+				productList.innerHTML += `<h4>sizes: ${volume.name} at $ ${volume.price} each</h4>`
+
 				})
 
 		})
