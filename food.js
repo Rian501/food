@@ -1,6 +1,8 @@
 let myRequest = new XMLHttpRequest();
+let secondRequest = new XMLHttpRequest();
 
 myRequest.addEventListener("error", doThisIfError);
+secondRequest.addEventListener("error", doThisIfError);
 
 function doThisIfError () {
 	document.write("An error occurred while transferring data.");
@@ -8,21 +10,34 @@ function doThisIfError () {
 
 
 console.log("myRequest", myRequest);
+console.log("secondRequest", secondRequest);
 
 myRequest.addEventListener("load", doThisWhenFileLoads);
+secondRequest.addEventListener("load", doThisWhenSecondFileLoads);
+
+myRequest.open("GET", "petfood.json");
+secondRequest.open ("GET", "catfood.JSON");
+
+myRequest.send();
+secondRequest.send();
 
 function doThisWhenFileLoads() {
 	//save in a variable the result of parsing the JSON file
 	//the event is because this comes from an event listener.
 	var foodData = JSON.parse(event.target.responseText);
-	console.log("the food data", foodData);
+	console.log("dog food data", foodData);
 	outputProducts(foodData.dog_brands);
 }
 
+function doThisWhenSecondFileLoads() {
+	//save in a variable the result of parsing the JSON file
+	//the event is because this comes from an event listener.
+	var catFoodData = JSON.parse(event.target.responseText);
+	console.log("cat food data", catFoodData);
+	outputProducts(catFoodData.cat_brands);
+}
 
-myRequest.open("GET", "petfood.json");
 
-myRequest.send();
 
 function outputProducts(prodsArr)  {
 	console.log("prodsArr?", prodsArr);
@@ -44,4 +59,13 @@ function outputProducts(prodsArr)  {
 
 		})
 	})
+}
+
+function outputCatFood(prodsArr)  {
+	console.log("prodsArr?", prodsArr);
+	let catFoodList=document.getElementById("cat-food");
+	prodsArr.forEach(function(brand) {
+		console.log("cat food brand", brand.name);
+	})
+
 }

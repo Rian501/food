@@ -12,11 +12,11 @@
                 {
                   "volume": "20oz.",
                   "price": 19.99
-                }                
+                },                
                 {
                   "volume": "32oz.",
                   "price": 26.99
-                }
+                },
                 {
                   "volume": "64oz.",
                   "price": 34.99
@@ -29,15 +29,15 @@
                 {
                   "volume": "20oz.",
                   "price": 24.99
-                }                
+                },                
                 {
                   "volume": "40oz.",
                   "price": 47.99
                 }     
               ]
-            },
+            }
           ]
-        }
+        },
         {
           "breed": "Bengal",
           "food types": [
@@ -47,11 +47,11 @@
                 {
                   "volume": "20oz.",
                   "price": 19.99
-                }                
+                },                
                 {
                   "volume": "32oz.",
                   "price": 26.99
-                }
+                },
                 {
                   "volume": "64oz.",
                   "price": 34.99
@@ -64,15 +64,15 @@
                 {
                   "volume": "20oz.",
                   "price": 24.99
-                }                
+                },                
                 {
                   "volume": "40oz.",
                   "price": 47.99
                 }     
               ]
-            },
+            }
           ]
-        }
+        },
         {
           "breed": "Snowshoe",
           "food types": [
@@ -82,11 +82,11 @@
                 {
                   "volume": "20oz.",
                   "price": 19.99
-                }                
+                },                
                 {
                   "volume": "32oz.",
                   "price": 26.99
-                }
+                },
                 {
                   "volume": "64oz.",
                   "price": 34.99
@@ -99,15 +99,15 @@
                 {
                   "volume": "20oz.",
                   "price": 24.99
-                }                
+                },                
                 {
                   "volume": "40oz.",
                   "price": 47.99
                 }     
               ]
-            },
+            }
           ]
-        }
+        },
         {
           "breed": "Munchkin",
           "food types": [
@@ -117,11 +117,11 @@
                 {
                   "volume": "20oz.",
                   "price": 19.99
-                }                
+                },                
                 {
                   "volume": "32oz.",
                   "price": 26.99
-                }
+                },
                 {
                   "volume": "64oz.",
                   "price": 34.99
@@ -134,17 +134,17 @@
                 {
                   "volume": "20oz.",
                   "price": 24.99
-                }                
+                },                
                 {
                   "volume": "40oz.",
                   "price": 47.99
                 }     
               ]
-            },
+            }
           ]
         }
       ]
-    }
+    },
     {
       "name": "Meow Meal",
       "breeds": [
@@ -157,20 +157,20 @@
                 {
                   "volume": "24oz.",
                   "price": 19.99
-                }
+                },
                 {
                   "volume": "48oz.",
                   "price": 34.99
                 }
               ]
-            }
+            },
             {
               "food type": "Adult",
               "volumes": [
                 {
                   "volume": "28oz.",
                   "price": 22.99
-                }
+                },
                 {
                   "volume": "56oz.",
                   "price": 40.99
@@ -178,7 +178,7 @@
               ]
             }
           ]
-        }        
+        },        
         {
           "breed": "Egyptian Mau",
           "food types": [
@@ -188,20 +188,20 @@
                 {
                   "volume": "24oz.",
                   "price": 19.99
-                }
+                },
                 {
                   "volume": "48oz.",
                   "price": 34.99
                 }
               ]
-            }
+            },
             {
               "food type": "Adult",
               "volumes": [
                 {
                   "volume": "28oz.",
                   "price": 22.99
-                }
+                },
                 {
                   "volume": "56oz.",
                   "price": 40.99
@@ -209,7 +209,7 @@
               ]
             }
           ]
-        }        
+        },        
         {
           "breed": "Himalayan",
           "food types": [
@@ -219,20 +219,20 @@
                 {
                   "volume": "24oz.",
                   "price": 19.99
-                }
+                },
                 {
                   "volume": "48oz.",
                   "price": 34.99
                 }
               ]
-            }
+            },
             {
               "food type": "Adult",
               "volumes": [
                 {
                   "volume": "28oz.",
                   "price": 22.99
-                }
+                },
                 {
                   "volume": "56oz.",
                   "price": 40.99
@@ -240,7 +240,7 @@
               ]
             }
           ]
-        }        
+        },        
         {
           "breed": "Rag Doll",
           "food types": [
@@ -250,20 +250,20 @@
                 {
                   "volume": "24oz.",
                   "price": 19.99
-                }
+                },
                 {
                   "volume": "48oz.",
                   "price": 34.99
                 }
               ]
-            }
+            },
             {
               "food type": "Adult",
               "volumes": [
                 {
                   "volume": "28oz.",
                   "price": 22.99
-                }
+                },
                 {
                   "volume": "56oz.",
                   "price": 40.99
