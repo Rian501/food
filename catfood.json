@@ -5,18 +5,18 @@
       "breeds": [
         {
           "breed": "Siamese",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "20oz.",
                   "price": 19.99
-                }                
+                },                
                 {
                   "volume": "32oz.",
                   "price": 26.99
-                }
+                },
                 {
                   "volume": "64oz.",
                   "price": 34.99
@@ -24,34 +24,34 @@
               ]
             },
             {
-              "food type": "Elite",
+              "food_type": "Elite",
               "volumes": [
                 {
                   "volume": "20oz.",
                   "price": 24.99
-                }                
+                },                
                 {
                   "volume": "40oz.",
                   "price": 47.99
                 }     
               ]
-            },
+            }
           ]
-        }
+        },
         {
           "breed": "Bengal",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "20oz.",
                   "price": 19.99
-                }                
+                },                
                 {
                   "volume": "32oz.",
                   "price": 26.99
-                }
+                },
                 {
                   "volume": "64oz.",
                   "price": 34.99
@@ -59,34 +59,34 @@
               ]
             },
             {
-              "food type": "Elite",
+              "food_type": "Elite",
               "volumes": [
                 {
                   "volume": "20oz.",
                   "price": 24.99
-                }                
+                },                
                 {
                   "volume": "40oz.",
                   "price": 47.99
                 }     
               ]
-            },
+            }
           ]
-        }
+        },
         {
           "breed": "Snowshoe",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "20oz.",
                   "price": 19.99
-                }                
+                },                
                 {
                   "volume": "32oz.",
                   "price": 26.99
-                }
+                },
                 {
                   "volume": "64oz.",
                   "price": 34.99
@@ -94,34 +94,34 @@
               ]
             },
             {
-              "food type": "Elite",
+              "food_type": "Elite",
               "volumes": [
                 {
                   "volume": "20oz.",
                   "price": 24.99
-                }                
+                },                
                 {
                   "volume": "40oz.",
                   "price": 47.99
                 }     
               ]
-            },
+            }
           ]
-        }
+        },
         {
           "breed": "Munchkin",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "20oz.",
                   "price": 19.99
-                }                
+                },                
                 {
                   "volume": "32oz.",
                   "price": 26.99
-                }
+                },
                 {
                   "volume": "64oz.",
                   "price": 34.99
@@ -129,48 +129,48 @@
               ]
             },
             {
-              "food type": "Elite",
+              "food_type": "Elite",
               "volumes": [
                 {
                   "volume": "20oz.",
                   "price": 24.99
-                }                
+                },                
                 {
                   "volume": "40oz.",
                   "price": 47.99
                 }     
               ]
-            },
+            }
           ]
         }
       ]
-    }
+    },
     {
       "name": "Meow Meal",
       "breeds": [
         {
           "breed": "Manx",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "24oz.",
                   "price": 19.99
-                }
+                },
                 {
                   "volume": "48oz.",
                   "price": 34.99
                 }
               ]
-            }
+            },
             {
-              "food type": "Adult",
+              "food_type": "Adult",
               "volumes": [
                 {
                   "volume": "28oz.",
                   "price": 22.99
-                }
+                },
                 {
                   "volume": "56oz.",
                   "price": 40.99
@@ -178,30 +178,30 @@
               ]
             }
           ]
-        }        
+        },        
         {
           "breed": "Egyptian Mau",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "24oz.",
                   "price": 19.99
-                }
+                },
                 {
                   "volume": "48oz.",
                   "price": 34.99
                 }
               ]
-            }
+            },
             {
-              "food type": "Adult",
+              "food_type": "Adult",
               "volumes": [
                 {
                   "volume": "28oz.",
                   "price": 22.99
-                }
+                },
                 {
                   "volume": "56oz.",
                   "price": 40.99
@@ -209,30 +209,30 @@
               ]
             }
           ]
-        }        
+        },        
         {
           "breed": "Himalayan",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "24oz.",
                   "price": 19.99
-                }
+                },
                 {
                   "volume": "48oz.",
                   "price": 34.99
                 }
               ]
-            }
+            },
             {
-              "food type": "Adult",
+              "food_type": "Adult",
               "volumes": [
                 {
                   "volume": "28oz.",
                   "price": 22.99
-                }
+                },
                 {
                   "volume": "56oz.",
                   "price": 40.99
@@ -240,30 +240,30 @@
               ]
             }
           ]
-        }        
+        },        
         {
           "breed": "Rag Doll",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "24oz.",
                   "price": 19.99
-                }
+                },
                 {
                   "volume": "48oz.",
                   "price": 34.99
                 }
               ]
-            }
+            },
             {
-              "food type": "Adult",
+              "food_type": "Adult",
               "volumes": [
                 {
                   "volume": "28oz.",
                   "price": 22.99
-                }
+                },
                 {
                   "volume": "56oz.",
                   "price": 40.99
