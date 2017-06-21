@@ -5,9 +5,9 @@
       "breeds": [
         {
           "breed": "Siamese",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "20oz.",
@@ -24,7 +24,7 @@
               ]
             },
             {
-              "food type": "Elite",
+              "food_type": "Elite",
               "volumes": [
                 {
                   "volume": "20oz.",
@@ -40,9 +40,9 @@
         },
         {
           "breed": "Bengal",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "20oz.",
@@ -59,7 +59,7 @@
               ]
             },
             {
-              "food type": "Elite",
+              "food_type": "Elite",
               "volumes": [
                 {
                   "volume": "20oz.",
@@ -75,9 +75,9 @@
         },
         {
           "breed": "Snowshoe",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "20oz.",
@@ -94,7 +94,7 @@
               ]
             },
             {
-              "food type": "Elite",
+              "food_type": "Elite",
               "volumes": [
                 {
                   "volume": "20oz.",
@@ -110,9 +110,9 @@
         },
         {
           "breed": "Munchkin",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "20oz.",
@@ -129,7 +129,7 @@
               ]
             },
             {
-              "food type": "Elite",
+              "food_type": "Elite",
               "volumes": [
                 {
                   "volume": "20oz.",
@@ -150,9 +150,9 @@
       "breeds": [
         {
           "breed": "Manx",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "24oz.",
@@ -165,7 +165,7 @@
               ]
             },
             {
-              "food type": "Adult",
+              "food_type": "Adult",
               "volumes": [
                 {
                   "volume": "28oz.",
@@ -181,9 +181,9 @@
         },        
         {
           "breed": "Egyptian Mau",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "24oz.",
@@ -196,7 +196,7 @@
               ]
             },
             {
-              "food type": "Adult",
+              "food_type": "Adult",
               "volumes": [
                 {
                   "volume": "28oz.",
@@ -212,9 +212,9 @@
         },        
         {
           "breed": "Himalayan",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "24oz.",
@@ -227,7 +227,7 @@
               ]
             },
             {
-              "food type": "Adult",
+              "food_type": "Adult",
               "volumes": [
                 {
                   "volume": "28oz.",
@@ -243,9 +243,9 @@
         },        
         {
           "breed": "Rag Doll",
-          "food types": [
+          "food_types": [
             {
-              "food type": "Kitten",
+              "food_type": "Kitten",
               "volumes": [
                 {
                   "volume": "24oz.",
@@ -258,7 +258,7 @@
               ]
             },
             {
-              "food type": "Adult",
+              "food_type": "Adult",
               "volumes": [
                 {
                   "volume": "28oz.",

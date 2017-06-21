@@ -34,29 +34,21 @@ function doThisWhenSecondFileLoads() {
 	//the event is because this comes from an event listener.
 	var catFoodData = JSON.parse(event.target.responseText);
 	console.log("cat food data", catFoodData);
-	outputProducts(catFoodData.cat_brands);
+	outputCatFood(catFoodData.cat_brands);
 }
 
 
 
 function outputProducts(prodsArr)  {
-	console.log("prodsArr?", prodsArr);
 	let productList=document.getElementById("dog-food");
 	prodsArr.forEach(function(brand) {
-		console.log("food brand", brand.name);
 		productList.innerHTML += `<h2>${brand.name} Brand:</h2>`
 		brand.types.forEach(function(brandType) {
-			console.log("food types for each brand", brandType.type);
 			productList.innerHTML += `<h3>${brandType.type} foods</h3>`
-			console.log("brandtype", brandType);
-			console.log("brandtype volumes", brandType.volumes);
-			// brandType=brandType.volumes
 			brandType.volumes.forEach(function(volume)  {
-				console.log("volumes for each type", volume.name);
-				productList.innerHTML += `<h4>sizes: ${volume.name} at $ ${volume.price} each</h4>`
+				productList.innerHTML += `<p>size ${volume.name} at $${volume.price} each</p>`
 
 				})
-
 		})
 	})
 }
@@ -65,7 +57,16 @@ function outputCatFood(prodsArr)  {
 	console.log("prodsArr?", prodsArr);
 	let catFoodList=document.getElementById("cat-food");
 	prodsArr.forEach(function(brand) {
-		console.log("cat food brand", brand.name);
+		catFoodList.innerHTML += `<h2>${brand.name} Brand:</h2>`
+		brand.breeds.forEach(function(breedName) {
+			catFoodList.innerHTML +=`<h3>For ${breedName.breed} Breeds:</h3>`
+			breedName.food_types.forEach(function(type) {
+				catFoodList.innerHTML += `<h4>${type.food_type}</h4>`
+				type.volumes.forEach(function(volPrice) {
+					catFoodList.innerHTML+= `<p>size ${volPrice.volume} at $${volPrice.price} each</p>`;
+				})
+			})
+		})
 	})
 
 }
